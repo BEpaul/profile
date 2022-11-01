@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Profile</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="position-absolute top-0 start-50 translate-middle-x">
+        <div class="border shadow p-3 mb-5 bg-body rounded mw-100" style="width: 740px;">
+            <div class="headline">
+                My profile
+            </div>
+            <div class="intro">
+                Hello, I'm minhyuk Kim, a student of Sungkyunkwan University.<br>My major is a computer science.<br>
+                I also like puppy because they are cute so much!
+            </div>
+            <!-- photo 구현 -->
+            <div class="photo">
+                <img src="./photo.png" class="rounded-circle" alt="my_photo">
+            </div>
+            <!-- a 태그 + 리스트 구현 -->
+            <ul class="mt-3 mb-3 fs-5">
+                <li>email: rhrlwld@gmail.com</li>
+                <li><a href="https://github.com/BEpaul" target="_blank" class="link-secondary">github</a></li>
+                <li><a href="https://minyakk.tistory.com/" target="_blank" class="link-secondary">blog</a></li>
+            </ul>
+            <br>
+            <div class="schedule_descriptions">
+                <h6>timetable</h6>
+            </div>
+            <div class="schedule">
+                <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th>TIME</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th>#1</th>
+                        <td>C.A</td>
+                        <td>S.P</td>
+                        <td>W.B</td>
+                        <td>D.S</td>
+                        <td>C.V</td>
+                      </tr>
+                      <tr>
+                        <th>#2</th>
+                        <td>S.P.L</td>
+                        <td>O.S.L</td>
+                        <td>W.P.L</td>
+                        <td>Co-op</td>
+                        <td>S.E</td>
+                      </tr>
+                      <tr>
+                        <th>#3</th>
+                        <td>E.E</td>
+                        <td>A.U</td>
+                        <td>G.O</td>
+                        <td>C.A</td>
+                        <td>S.P</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+            <br>
+            <div>
+                <h6>I'm Interested...</h6>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a href="https://nextjs.org/" target="_blank" class="link-info">Next.js</a></li>
+                    <li class="list-group-item"><a href="https://jestjs.io/" target="_blank" class="link-info">Jest.js</a></li>
+                    <li class="list-group-item"><a href="https://spring.io/" target="_blank" class="link-info">Java Spring</a></li>
+                    <li class="list-group-item"><a href="https://www.mysql.com/" target="_blank" class="link-info">MySQL</a></li>
+                  </ul>  
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
